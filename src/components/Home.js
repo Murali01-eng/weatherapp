@@ -158,7 +158,7 @@ const Home = () => {
             <div className='previously-viewed'>
               <h3 className='favorites-heading'>Previously viewed</h3>
               {previouslyViewed.length === 0 ? (
-                <p>No previously viewed cities.</p>
+                <p className='empty-list'>No previously viewed cities.</p>
               ) : (
                 <div>
                   <h4>{previouslyViewed[0].name}, {previouslyViewed[0].country}</h4>
