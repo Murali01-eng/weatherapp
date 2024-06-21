@@ -9,6 +9,22 @@ body{
   line-height: 1.7;
 }
 
+::-moz-selection {
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+::placeholder {
+  color: #ff5858ab;
+  font-weight: 700;
+  opacity: 1;
+}
+
 .home{
   background-color: #cdcaca;
   min-height: 100vh;
@@ -72,12 +88,6 @@ body{
   padding: 10px;
   margin-right: 5px;
 }
-
-/* ::placeholder {
-  color: #ff5858ab;
-  font-weight: 700;
-  opacity: 1;
-} */
 
 .search-button{
   outline: none;

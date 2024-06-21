@@ -45,7 +45,8 @@ const Home = () => {
       .then(response => {
         if (response.data.cod === 200) {
           setWeatherData(response.data);
-        } else {
+        } 
+        else {
           setError(`City '${cityName}' not found`);
           setWeatherData(null);
         }
